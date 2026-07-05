@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff7fb;
+    color: #222;
+}
+
+nav {
+    background: linear-gradient(135deg, hotpink, deeppink);
+    height: 10vh;
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+nav .logo {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .logo h1 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav .links {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+nav .links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: deeppink;
+}
+
+center {
+    margin-top: 20px;
+}
+
+form {
+    background: white;
+    width: 400px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2);
+}
+
+form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 8px;
+    border: 2px solid #ffc0cb;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+form input:focus {
+    border-color: deeppink;
+    box-shadow: 0 0 8px rgba(255, 20, 147, 0.3);
+}
+
+form button {
+    background: linear-gradient(135deg, hotpink, deeppink);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 20, 147, 0.3);
+}
+
+center h1 {
+    margin-bottom: 20px;
+}
+
+center a {
+    display: inline-block;
+    margin: 10px 8px;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: white;
+    background: hotpink;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+center a:hover {
+    background: deeppink;
+    transform: translateY(-2px);
+}
+
+center h1 + a {
+    margin-top: 12px;
+}
